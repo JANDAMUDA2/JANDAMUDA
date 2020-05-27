@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Bandung');
+date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -96,7 +96,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("yellow","⏳▶️ Sabar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(10);
+        sleep(15);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"CHATIME"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -110,7 +110,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("yellow","⏳▶️ Sabar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(10);
+        sleep(15);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -124,7 +124,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("yellow","⏳▶️ Sabar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(10);
+        sleep(15);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -133,7 +133,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("yellow","⏳▶️ Sabar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(10);
+        sleep(15);
         }
         sleep(10);
         $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code"COBAGOFOOD260520"}');
